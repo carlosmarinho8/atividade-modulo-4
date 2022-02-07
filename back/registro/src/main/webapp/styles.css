@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;	
+	font-weight: 400;
+	background-image: url("https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg");
+}
+h1
+{
+	color: #22277A;
+}
+#caixa2{
+	border: 1px solid #22277A;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.Botao
+{
+	text-decoration: none;
+	background-color:  #22277A;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+.Botao2
+{
+	text-decoration: none;
+	background-color: red;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+.imagem{
+		height: 5cm;
+		width: 5cm;
+	}
+	
+.Bordar
+{
+	text-align: center;
+	border: #22277A solid;
+	margin-left: 25rem;
+	margin-right: 25rem;
+	padding: 4rem;
+	border-radius: 5px;
+}
+#Titulo{
+	text-align: center;
+	margin-left: 25rem;
+	margin-right: 25rem;
+	padding: 4rem;
+}
+#Botao{
+	margin-top: 10px;
+}
+.Caixa{
+	border: 1px solid #22277A;
+	border-radius: 5px;
+}
+#tabela{
+	margin-top: 10px;
+	padding: 4rem;
+	border-collapse: collapse;
+	
+}
+#tabela th{
+	border: 1px solid #ddd;
+	background-color: #22277A;
+	color: white;
+}
+#tabela td{
+	border: 1px solid #ddd;
+}

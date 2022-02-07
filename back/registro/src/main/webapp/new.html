@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Registro de Contatos</title>
+<link rel="icon" href="imagens/phonefavicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="Bordar">
+		<h1>Criar novo contato</h1>
+		<form name="frmContato" action="insert">
+			<table>
+				<tr>
+					<td><input type="text" name="nome" placeholder="Nome" class="Caixa"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="idade" placeholder="Idade" class="Caixa"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="genero" placeholder="Gênero" class="Caixa"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="telefone" placeholder="Telefone" class="Caixa"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="email" placeholder="E-mail" class="Caixa"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="cpf" placeholder="CPF" class="Caixa"></td>
+				</tr>
+			</table>
+			<input type="button" value="Adicionar" class="Botao" id="Botao" onclick="validar()">
+		</form>
+	</div>
+</body>
+<script src="scripts/validador.js"></script>
